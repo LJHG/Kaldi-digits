@@ -1,0 +1,2 @@
+speaker1 /home/ljh/kaldi-trunk/egs/digits/mfcc/cmvn_train.ark:9
+speaker2 /home/ljh/kaldi-trunk/egs/digits/mfcc/cmvn_train.ark:257

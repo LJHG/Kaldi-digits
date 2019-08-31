@@ -1,0 +1,2 @@
+speaker3 和 spaker4里的东西是一模一样的orz
+因为貌似只有一个speaker kaldi有点不对头

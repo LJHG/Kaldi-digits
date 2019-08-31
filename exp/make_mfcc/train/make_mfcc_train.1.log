@@ -1,0 +1,51 @@
+# compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/train/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/train/wav_train.1.scp ark:- | copy-feats --write-num-frames=ark,t:exp/make_mfcc/train/utt2num_frames.1 --compress=true ark:- ark,scp:/home/ljh/kaldi-trunk/egs/digits/mfcc/raw_mfcc_train.1.ark,/home/ljh/kaldi-trunk/egs/digits/mfcc/raw_mfcc_train.1.scp 
+# Started at Sat Aug 31 16:56:40 CST 2019
+#
+copy-feats --write-num-frames=ark,t:exp/make_mfcc/train/utt2num_frames.1 --compress=true ark:- ark,scp:/home/ljh/kaldi-trunk/egs/digits/mfcc/raw_mfcc_train.1.ark,/home/ljh/kaldi-trunk/egs/digits/mfcc/raw_mfcc_train.1.scp 
+compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/train/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/train/wav_train.1.scp ark:- 
+WARNING (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:182) Processed features for key speaker1_0_0_0
+WARNING (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:182) Processed features for key speaker1_1_1_1
+WARNING (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:182) Processed features for key speaker1_2_2_2
+WARNING (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:182) Processed features for key speaker1_3_3_3
+WARNING (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:182) Processed features for key speaker1_4_4_4
+WARNING (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:182) Processed features for key speaker1_5_5_5
+WARNING (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:182) Processed features for key speaker1_6_6_6
+WARNING (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:182) Processed features for key speaker1_7_7_7
+WARNING (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:182) Processed features for key speaker1_8_8_8
+WARNING (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:181) Processed 10 utterances
+VLOG[2] (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:182) Processed features for key speaker1_9_9_9
+WARNING (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:182) Processed features for key speaker2_0_0_0
+WARNING (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:182) Processed features for key speaker2_1_2_3
+WARNING (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:182) Processed features for key speaker2_1_2_9
+WARNING (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:182) Processed features for key speaker2_2_3_5
+WARNING (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:182) Processed features for key speaker2_3_5_7
+WARNING (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:182) Processed features for key speaker2_6_5_3
+WARNING (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:182) Processed features for key speaker2_6_5_4
+WARNING (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:182) Processed features for key speaker2_6_6_6
+WARNING (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:182) Processed features for key speaker2_7_5_3
+WARNING (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:181) Processed 20 utterances
+VLOG[2] (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:182) Processed features for key speaker2_8_5_2
+LOG (compute-mfcc-feats[5.5.383~1445-bd1d]:main():compute-mfcc-feats.cc:185)  Done 20 out of 20 utterances.
+LOG (copy-feats[5.5.383~1445-bd1d]:main():copy-feats.cc:143) Copied 20 feature matrices.
+# Accounting: time=1 threads=1
+# Ended (code 0) at Sat Aug 31 16:56:41 CST 2019, elapsed time 1 seconds
